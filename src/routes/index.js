@@ -4,7 +4,7 @@ const usersRouter = require('./users.router');
 const schedulesRouter = require('./schedules.router');
 const timezonesRouter = require('./timezones.router');
 const appointmentsRouter = require('./appointments.router');
-const avaliabilityRouter = require('./avaliability.router');
+const avaliabilityRouter = require('./availability.router');
 
 function routerApi(app) {
     const router = express.Router();
@@ -13,7 +13,7 @@ function routerApi(app) {
     router.use('/schedules', schedulesRouter);
     router.use('/timezones', timezonesRouter);
     router.use('/appointments', appointmentsRouter);
-    router.use('/avaliability', avaliabilityRouter);
+    router.use('/availability', avaliabilityRouter);
 }
 
 module.exports = routerApi;
