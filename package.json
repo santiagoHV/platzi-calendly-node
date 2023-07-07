@@ -34,6 +34,7 @@
         "express": "4.18.1",
         "joi": "17.6.0",
         "joi-objectid": "4.0.2",
+        "luxon": "^3.3.0",
         "mongoose": "^6.4.3",
         "timezone-support": "2.0.2"
     },
